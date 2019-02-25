@@ -1,10 +1,10 @@
 .header {
-    height: 80vh;
+    height: 60vh;
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary, 1),
-        rgba($color-primary-dark, 1));
-        // url(../../img/kranbil_1.jpg);
+        rgba($color-primary, 0.9),
+        rgba($color-primary-dark, 0.9)),
+        url(../../img/fckt.png);
     background-size: cover;
     position: relative;
 
