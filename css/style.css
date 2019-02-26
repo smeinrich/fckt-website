@@ -20,12 +20,34 @@ body {
   font-size: 2rem; }
 
 .navbar-brand {
-  font-size: 2.5rem; }
+  font-size: 3rem; }
 
-.heading {
+.heading-primary--main {
   color: #e1d8d6;
   font-size: 6rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 1rem; }
+
+.heading-primary--sub {
+  font-size: 1.8rem;
+  margin-bottom: 5rem; }
+
+.heading-secondary {
+  color: #161219;
+  font-size: 4rem; }
+
+.heading-tertiary {
+  color: #161219;
+  font-size: 3rem; }
+
+.paragraph {
+  color: #161219;
+  font-size: 1.6rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-medium-margin-bottom {
+  margin-bottom: 5rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -40,8 +62,8 @@ body {
   color: #2C4770; }
 
 .header {
-  height: 80vh;
-  background-image: linear-gradient(to right bottom, #152d54, #2c4770);
+  height: 60vh;
+  background-image: linear-gradient(to right bottom, rgba(21, 45, 84, 0.9), rgba(44, 71, 112, 0.9)), url(../../img/fckt.png);
   background-size: cover;
   position: relative; }
   .header__text-box {
@@ -78,4 +100,19 @@ body {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .navbar {
-  margin: 0 10rem; }
+  margin: 0 5%; }
+
+.nav-item {
+  margin: 0 .5rem; }
+
+.about-image-block {
+  background-image: url("../../img/kranbil_1.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative; }
+
+.section-about__photo {
+  width: 100%; }
+
+.row__grey {
+  background-color: grey; }
