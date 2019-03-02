@@ -41,16 +41,23 @@ body {
 
 .paragraph {
   color: #161219;
-  font-size: 1.7rem; }
+  font-size: 1.7rem;
+  list-style-position: inside; }
 
 .u-center-text {
   text-align: center; }
+
+.u-text-align-right {
+  text-align: right; }
 
 .u-small-margin-bottom {
   margin-bottom: 2rem; }
 
 .u-medium-margin-bottom {
   margin-bottom: 5rem; }
+
+.u-large-margin-bottom {
+  margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -76,6 +83,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.footer {
+  height: 20vh;
+  background-color: #152D54;
+  background-size: cover;
+  position: relative; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -91,6 +104,9 @@ body {
       margin-right: 6rem; }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
+    @media only screen and (max-width: 640px) {
+      .row .col-1-of-2 {
+        width: 100%; } }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
@@ -107,6 +123,9 @@ body {
 
 .nav-item {
   margin: 0 .5rem; }
+
+.section-about {
+  padding: 2rem; }
 
 .section-about__photo {
   width: 100%; }

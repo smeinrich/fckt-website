@@ -21,6 +21,10 @@
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
 
+        @media only screen and (max-width: 640px) {
+            width: 100%;
+        }
+
     }
 
     .col-1-of-3 {
