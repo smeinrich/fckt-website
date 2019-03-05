@@ -3,14 +3,14 @@
     &:visited {
         text-transform: uppercase;
         text-decoration: none;
-        padding: 2rem 4rem;
+        padding: 2rem 3rem;
         display: inline-block;
-        border-radius: 1rem;
+        border-radius: .4rem;   
         font-size: 2rem;
     }
 
     &--light {
-        background-color: $color-primary-light;
-        color: $color-primary-dark;
+        background-color: $color-red;
+        color: $color-white;
     }
 }

@@ -1,7 +1,19 @@
-.section-about {
-    padding: 2rem;
-}
 
 .section-about__photo {
     width: 100%;
+    border-radius: .4rem;
+
+    @media only screen and (max-width: 767px){
+        display: block;
+        margin: 0 auto 2rem auto;
+    }
 }
+
+.img-col {
+    float: left;
+}
+
+.text-col {
+    float: right;
+}
+

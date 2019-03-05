@@ -8,6 +8,9 @@
     background-size: cover;
     position: relative;
 
+    @media only screen and (max-width: 767px){
+        height: 90vh;
+    }
 
     &__text-box {
         position: absolute;
@@ -15,5 +18,17 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
+        @media only screen and (max-width: 767px){
+            width: 80%;
+        }
     }
+}
+
+.header__vector {
+    height: 14rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }

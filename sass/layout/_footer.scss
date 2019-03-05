@@ -1,6 +1,14 @@
 .footer {
-    height: 20vh;
+    color: $color-white;
     background-color: $color-primary;
     background-size: cover;
     position: relative;
+    padding: 2rem 0;
+}
+
+.footer__mail {
+    color: $color-white;
+    &:hover {
+    color: $color-red;
+    }
 }

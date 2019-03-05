@@ -12,18 +12,6 @@ body {
   box-sizing: border-box;
   background-color: white; }
 
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-20rem); }
-  40% {
-    opacity: .5; }
-  80% {
-    transform: translateX(1rem); }
-  100% {
-    opacity: 1;
-    transform: translateX(0); } }
-
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -36,17 +24,13 @@ body {
   font-size: 3rem; }
 
 .heading-primary--main {
-  color: white;
+  color: #e1d8d6;
   font-size: 6rem;
   margin-bottom: 1rem; }
-  @media only screen and (max-width: 767px) {
-    .heading-primary--main {
-      font-size: 4.5rem; } }
 
 .heading-primary--sub {
   font-size: 1.8rem;
-  margin-bottom: 5rem;
-  color: white; }
+  margin-bottom: 5rem; }
 
 .footer-text {
   font-size: 1.4rem; }
@@ -57,7 +41,7 @@ body {
 
 .heading-tertiary {
   color: #161219;
-  font-size: 2.7rem; }
+  font-size: 3rem; }
 
 .paragraph {
   color: #161219;
@@ -82,68 +66,43 @@ body {
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 2rem 3rem;
+  padding: 2rem 4rem;
   display: inline-block;
   border-radius: .4rem;
   font-size: 2rem; }
 
 .btn--light {
-  background-color: #C1666B;
-  color: white; }
+  background-color: #4bb0d0;
+  color: #2C4770; }
 
 .header {
   height: 65vh;
-  background-image: linear-gradient(to right bottom, rgba(20, 92, 158, 0.9), rgba(44, 71, 112, 0.9)), url(../../img/fckt.png);
+  background-image: linear-gradient(to right bottom, rgba(21, 45, 84, 0.9), rgba(44, 71, 112, 0.9)), url(../../img/fckt.png);
   background-size: cover;
   position: relative; }
-  @media only screen and (max-width: 767px) {
-    .header {
-      height: 90vh; } }
   .header__text-box {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
-    @media only screen and (max-width: 767px) {
-      .header__text-box {
-        width: 80%; } }
-
-.header__vector {
-  height: 14rem;
-  animation-name: moveInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-out; }
 
 .footer {
-  color: white;
-  background-color: #145C9E;
+  background-color: #152D54;
   background-size: cover;
   position: relative;
   padding: 2rem 0; }
-
-.footer__mail {
-  color: white; }
-  .footer__mail:hover {
-    color: #C1666B; }
 
 .row {
   max-width: 114rem;
   margin: 0 auto;
   padding: 3.2rem 0; }
-  @media only screen and (max-width: 767px) {
-    .row {
-      padding: 0; } }
 
 .navbar {
   margin: 0 5%; }
 
 .nav-item {
   margin: 0 .5rem; }
-
-@media only screen and (max-width: 767px) {
-  .navbar-brand {
-    font-size: 2rem; } }
 
 .section-about__photo {
   width: 100%;
